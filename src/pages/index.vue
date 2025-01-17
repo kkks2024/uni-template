@@ -19,7 +19,7 @@ const name = ref('')
         :disabled="!name"
         @click="router.push(`/pages/hi?name=${name}`)"
       >
-        Go
+        {{ $t('Go') }}
       </button>
     </div>
   </div>
